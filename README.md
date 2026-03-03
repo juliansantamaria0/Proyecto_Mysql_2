@@ -145,11 +145,15 @@ La carpeta `Docs/` incluye las representaciones gráficas del diseño conceptual
 
 ![ Modelo Entidad-Relación](https://i.ibb.co/rTQr8bq/modelo-entidad-relacion.png)
 
+`Ver completo en Docs`
+
 Representa las entidades principales, atributos clave, relaciones y cardinalidades desde el punto de vista conceptual, antes de su implementación en MySQL.
 
 ### Diagrama ER (Modelo Físico)
 
 ![Diagrama ER](https://i.ibb.co/hbQ33XD/diagrama-er.png)
+
+`Ver completo en Docs`
 
 Corresponde al modelo físico generado a partir del script SQL. Incluye claves primarias (PK), claves foráneas (FK), tipos de datos y relaciones con integridad referencial. Refleja exactamente la estructura creada en `inmobiliaria_db`.
 
@@ -157,6 +161,8 @@ Corresponde al modelo físico generado a partir del script SQL. Incluye claves p
 
 ![Normalización – Parte 1](https://i.ibb.co/j9VjQx7k/normalizacion-1.png)
 ![Normalización – Parte 2](https://i.ibb.co/bRYvjFTF/normalizacion-2.png)
+
+`Ver completo en Docs`
 
 Muestra el proceso de refinamiento del modelo hasta alcanzar la **3FN**: eliminación de atributos multivaluados, dependencias parciales y transitivas; separación de catálogos y normalización de `direccion` y `pago`.
 
