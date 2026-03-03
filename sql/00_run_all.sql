@@ -1,0 +1,11 @@
+SOURCE 01_db.sql;
+SOURCE 02_catalogos.sql;
+SOURCE 03_entidades.sql;
+SOURCE 04_contratos_pagos.sql;
+SOURCE 05_auditoria_reportes.sql;
+SOURCE 06_indices.sql;
+SOURCE 07_funciones.sql;
+SOURCE 08_triggers.sql;
+SOURCE 09_eventos.sql;
+SOURCE 10_roles_usuarios.sql;
+SOURCE 11_datos_prueba.sql;

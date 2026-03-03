@@ -1,0 +1,23 @@
+CREATE TABLE tipo_propiedad (
+  id_tipo TINYINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  nombre  VARCHAR(30) NOT NULL UNIQUE
+) ENGINE=InnoDB;
+
+CREATE TABLE estado_propiedad (
+  id_estado TINYINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  nombre    VARCHAR(20) NOT NULL UNIQUE
+) ENGINE=InnoDB;
+
+CREATE TABLE configuracion (
+  clave VARCHAR(50) PRIMARY KEY,
+  valor VARCHAR(200) NOT NULL
+) ENGINE=InnoDB;
+
+INSERT INTO tipo_propiedad (nombre) VALUES 
+('CASA'), ('APARTAMENTO'), ('LOCAL');
+
+INSERT INTO estado_propiedad (nombre) VALUES 
+('DISPONIBLE'), ('ARRENDADA'), ('VENDIDA'), ('EN_MANTENIMIENTO');
+
+INSERT INTO configuracion (clave, valor) 
+VALUES ('COMISION_VENTA_DEFECTO', '0.03');
